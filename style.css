@@ -1,0 +1,56 @@
+@media screen and (min-width:568px){
+    .cards-wrapper{
+        display: flex;
+    }
+}
+li{
+    color: #0000;
+    font-weight:700;
+    font-size: 1rem;
+}
+
+@media  (min-width: 2560px){
+    .xyz{
+        width:2000px !important;
+        height: 100vh; 
+    }
+
+}
+
+@media (max-width: 600px) and (min-width: 400px){
+    
+}
+.text-new{
+    margin-top: 6rem;
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 1.875em;
+    font-family: "Trirong", serif;
+}
+.cards-wrapper{
+    display:flex;
+}
+.card{
+    margin: 1em auto;
+    width: calc(100%/2);
+    border:none;
+    border-radius: 0;
+    background-color: #f7f8fa;
+}
+.corousel-inner{
+    padding: 1em;
+}
+.carousel-dark{
+    color: black;
+}
+@media screen and(max-width:567px){
+    .card:not(:first-child){
+        display: none;
+    }
+}
+.text-footer{
+    font-family: sans-serif;
+    color: black;
+    font-weight: 400;
+   
+}
